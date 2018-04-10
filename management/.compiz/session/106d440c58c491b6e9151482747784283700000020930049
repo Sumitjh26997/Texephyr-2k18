@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="106d440c58c491b6e9151482747784283700000020930049">
+  <window id="106d440c58c491b6e9151482749187241700000020930050" title="Coconut - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="66" y="24" width="1117" height="519"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

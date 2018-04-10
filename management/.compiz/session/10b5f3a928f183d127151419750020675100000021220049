@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="10b5f3a928f183d127151419750020675100000021220049">
+  <window id="10b5f3a928f183d127151419762319457400000021220050" title="Mebay - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="0" y="108" width="1366" height="660"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

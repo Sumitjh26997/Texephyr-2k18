@@ -1,0 +1,16 @@
+[19-Jan-2018 20:15:22 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/copy/upload.php on line 20
+[19-Jan-2018 20:15:22 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/copy/upload.php on line 21
+[19-Jan-2018 20:15:22 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/copy/upload.php on line 22
+[19-Jan-2018 20:15:22 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/copy/upload.php on line 23
+[07-Feb-2018 16:13:42 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/texephyr18/public_html/management/jqvmap/data/copy/me/datafile.php on line 43
+[07-Feb-2018 16:13:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/texephyr18/public_html/management/jqvmap/data/copy/me/datafile.php on line 103
+[12-Feb-2018 05:57:27 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/texephyr18/public_html/management/jqvmap/data/copy/me/datafile.php on line 43
+[12-Feb-2018 05:57:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/texephyr18/public_html/management/jqvmap/data/copy/me/datafile.php on line 103
+[12-Feb-2018 05:58:38 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 20
+[12-Feb-2018 05:58:38 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 21
+[12-Feb-2018 05:58:38 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 22
+[12-Feb-2018 05:58:38 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 23
+[12-Feb-2018 05:58:57 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 20
+[12-Feb-2018 05:58:57 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 21
+[12-Feb-2018 05:58:57 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 22
+[12-Feb-2018 05:58:57 UTC] PHP Notice:  Undefined index: fileToUpload in /home/texephyr18/public_html/management/jqvmap/data/copy/me/upload.php on line 23

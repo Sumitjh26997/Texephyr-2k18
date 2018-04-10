@@ -1,0 +1,40 @@
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  include(management/mysqlconnection.php): failed to open stream: No such file or directory in /home/texephyr18/public_html/web_temp/index.php on line 2
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  include(): Failed opening 'management/mysqlconnection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/texephyr18/public_html/web_temp/index.php on line 2
+[31-Jan-2018 18:36:35 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 316
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 316
+[31-Jan-2018 18:36:35 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 317
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 317
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 335
+[31-Jan-2018 18:36:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 351
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  include(management/mysqlconnection.php): failed to open stream: No such file or directory in /home/texephyr18/public_html/web_temp/index.php on line 2
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  include(): Failed opening 'management/mysqlconnection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/texephyr18/public_html/web_temp/index.php on line 2
+[03-Feb-2018 09:04:22 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 316
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 316
+[03-Feb-2018 09:04:22 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 317
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 317
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 335
+[03-Feb-2018 09:04:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 351
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  include(management/mysqlconnection.php): failed to open stream: No such file or directory in /home/texephyr18/public_html/web_temp/index.php on line 2
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  include(): Failed opening 'management/mysqlconnection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/texephyr18/public_html/web_temp/index.php on line 2
+[04-Feb-2018 23:17:34 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 316
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 316
+[04-Feb-2018 23:17:34 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 317
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 317
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 335
+[04-Feb-2018 23:17:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 351
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  include(management/mysqlconnection.php): failed to open stream: No such file or directory in /home/texephyr18/public_html/web_temp/index.php on line 2
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  include(): Failed opening 'management/mysqlconnection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/texephyr18/public_html/web_temp/index.php on line 2
+[05-Feb-2018 13:49:25 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 316
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 316
+[05-Feb-2018 13:49:25 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 317
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 317
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 335
+[05-Feb-2018 13:49:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 351
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  include(management/mysqlconnection.php): failed to open stream: No such file or directory in /home/texephyr18/public_html/web_temp/index.php on line 2
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  include(): Failed opening 'management/mysqlconnection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/texephyr18/public_html/web_temp/index.php on line 2
+[06-Mar-2018 03:58:10 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 316
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 316
+[06-Mar-2018 03:58:10 UTC] PHP Notice:  Undefined variable: conn in /home/texephyr18/public_html/web_temp/index.php on line 317
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/texephyr18/public_html/web_temp/index.php on line 317
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 335
+[06-Mar-2018 03:58:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/texephyr18/public_html/web_temp/index.php on line 351

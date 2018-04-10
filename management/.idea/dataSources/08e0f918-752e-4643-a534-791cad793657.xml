@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tex18@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tex18">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="ass6"/>
+    <schema id="4" parent="1" name="company_db1"/>
+    <schema id="5" parent="1" name="db2"/>
+    <schema id="6" parent="1" name="hotel"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="myOctoberCSM"/>
+    <schema id="9" parent="1" name="myOpenCart"/>
+    <schema id="10" parent="1" name="mysql"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="Student"/>
+    <schema id="13" parent="1" name="sys"/>
+    <schema id="14" parent="1" name="testdb"/>
+    <schema id="15" parent="1" name="tickets_development"/>
+    <schema id="16" parent="1" name="tickets_production"/>
+    <schema id="17" parent="1" name="tickets_test"/>
+    <schema id="18" parent="1" name="triggerDemo"/>
+    <table id="19" parent="2" name="college"/>
+    <table id="20" parent="2" name="contact_us_submissions"/>
+    <table id="21" parent="2" name="department"/>
+    <table id="22" parent="2" name="event"/>
+    <table id="23" parent="2" name="login"/>
+    <table id="24" parent="2" name="registration"/>
+    <table id="25" parent="2" name="visit"/>
+    <table id="26" parent="2" name="visit_volunteer_map"/>
+    <table id="27" parent="2" name="volunteer"/>
+    <column id="28" parent="19" name="c_id">
+      <Position>1</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="19" name="c_name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="19" name="c_place">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="31" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>c_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="20" name="con_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="20" name="name">
+      <Position>2</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="20" name="email">
+      <Position>3</Position>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="20" name="message">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="36" parent="20" name="timestamp">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="37" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>con_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="38" parent="21" name="dept_id">
+      <Position>1</Position>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="21" name="dept_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="40" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>dept_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="22" name="e_id">
+      <Position>1</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="22" name="e_name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="22" name="e_description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="22" name="e_fees">
+      <Position>4</Position>
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="22" name="e_participant_no">
+      <Position>5</Position>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="22" name="e_date">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="22" name="e_time">
+      <Position>7</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="22" name="e_head">
+      <Position>8</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="22" name="e_head_phone">
+      <Position>9</Position>
+      <DataType>bigint(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="22" name="e_round">
+      <Position>10</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="51" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>e_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="52" parent="23" name="login_id">
+      <Position>1</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="53" parent="23" name="login_username">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="23" name="login_password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="23" name="login_access">
+      <Position>4</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="56" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>login_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="24" name="r_id">
+      <Position>1</Position>
+      <DataType>int(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="24" name="r_event_id">
+      <Position>2</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="24" name="r_volunteer_id">
+      <Position>3</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="24" name="r_visit_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="61" parent="24" name="r_p_college_id">
+      <Position>5</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="24" name="r_p_college_name">
+      <Position>6</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="63" parent="24" name="r_p_name">
+      <Position>7</Position>
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="24" name="r_p_phone">
+      <Position>8</Position>
+      <DataType>bigint(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="24" name="r_fees">
+      <Position>9</Position>
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="24" name="r_paid">
+      <Position>10</Position>
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="24" name="r_partial_status">
+      <Position>11</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="24" name="r_date">
+      <Position>12</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="24" name="r_time">
+      <Position>13</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="24" name="r_status_del">
+      <Position>14</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="71" parent="24" name="r_p_email">
+      <Position>15</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="24" name="transaction_id">
+      <Position>16</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="73" parent="24" name="r_e_id">
+      <ColNames>r_event_id</ColNames>
+    </index>
+    <index id="74" parent="24" name="r_p_college_id">
+      <ColNames>r_p_college_id</ColNames>
+    </index>
+    <index id="75" parent="24" name="r_visit_id">
+      <ColNames>r_visit_id</ColNames>
+    </index>
+    <index id="76" parent="24" name="r_v_id">
+      <ColNames>r_volunteer_id</ColNames>
+    </index>
+    <key id="77" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>r_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="78" parent="24" name="registration_ibfk_1">
+      <ColNames>r_event_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>event</RefTableName>
+      <RefColNames>e_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="79" parent="24" name="registration_ibfk_4">
+      <ColNames>r_visit_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>visit</RefTableName>
+      <RefColNames>visit_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="80" parent="24" name="registration_ibfk_3">
+      <ColNames>r_p_college_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>college</RefTableName>
+      <RefColNames>c_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="81" parent="25" name="visit_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="82" parent="25" name="date_in">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="83" parent="25" name="date_out">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="25" name="time_in">
+      <Position>4</Position>
+      <DataType>time|0</DataType>
+    </column>
+    <column id="85" parent="25" name="time_out">
+      <Position>5</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="25" name="college_id">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="25" name="comments">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="25" name="pr_id">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="25" name="cash_recieved">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="90" parent="25" name="college_id">
+      <ColNames>college_id</ColNames>
+    </index>
+    <index id="91" parent="25" name="pr_id">
+      <ColNames>pr_id</ColNames>
+    </index>
+    <key id="92" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>visit_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="25" name="visit_ibfk_1">
+      <ColNames>college_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>college</RefTableName>
+      <RefColNames>c_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="94" parent="25" name="visit_ibfk_2">
+      <ColNames>pr_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>login</RefTableName>
+      <RefColNames>login_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="95" parent="26" name="vv_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="96" parent="26" name="volunteer_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="26" name="visit_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="98" parent="26" name="visit_id">
+      <ColNames>visit_id</ColNames>
+    </index>
+    <index id="99" parent="26" name="volunteer_id">
+      <ColNames>volunteer_id</ColNames>
+    </index>
+    <key id="100" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>vv_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="101" parent="26" name="visit_volunteer_map_ibfk_1">
+      <ColNames>volunteer_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>volunteer</RefTableName>
+      <RefColNames>v_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="102" parent="26" name="visit_volunteer_map_ibfk_2">
+      <ColNames>visit_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>visit</RefTableName>
+      <RefColNames>visit_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="103" parent="27" name="v_id">
+      <Position>1</Position>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="104" parent="27" name="v_name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="27" name="v_dept_id">
+      <Position>3</Position>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="27" name="visit_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="107" parent="27" name="activity_status">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="108" parent="27" name="v_roll">
+      <Position>6</Position>
+      <DataType>int(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="27" name="v_phone">
+      <Position>7</Position>
+      <DataType>bigint(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="27" name="v_email">
+      <Position>8</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="27" name="v_password">
+      <Position>9</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="112" parent="27" name="visit_id">
+      <ColNames>visit_id</ColNames>
+    </index>
+    <index id="113" parent="27" name="v_dept_id">
+      <ColNames>v_dept_id</ColNames>
+    </index>
+    <index id="114" parent="27" name="v_email">
+      <ColNames>v_email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>v_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="116" parent="27" name="v_email">
+      <ColNames>v_email</ColNames>
+      <UnderlyingIndexName>v_email</UnderlyingIndexName>
+    </key>
+    <foreign-key id="117" parent="27" name="volunteer_ibfk_1">
+      <ColNames>v_dept_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>department</RefTableName>
+      <RefColNames>dept_id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="118" parent="27" name="volunteer_ibfk_2">
+      <ColNames>visit_id</ColNames>
+      <RefSchemaName>tex18</RefSchemaName>
+      <RefTableName>visit</RefTableName>
+      <RefColNames>visit_id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

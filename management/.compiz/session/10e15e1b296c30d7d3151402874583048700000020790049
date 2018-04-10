@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="10e15e1b296c30d7d3151402874583048700000020790049">
+  <window id="10e15e1b296c30d7d3151405130659801300000020790051" title="Tickets - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="0" y="108" width="1366" height="660"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

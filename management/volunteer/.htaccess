@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^volunteer\.texephyr\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.volunteer\.texephyr\.in$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/admin\.texephyr\.in\/volunteer_login\.html" [R=301,L]
+
